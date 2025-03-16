@@ -18,7 +18,7 @@ dataset_path = '/home/asus/Datasets/binary_segmentation/RGBD_SOD_Datasets/'
 depth_path = '/home/asus/Datasets/binary_segmentation/RGBD_SOD_Datasets/'
 
 generator = MMFT()
-generator.load_state_dict(torch.load('./models_352_resnet50_ASPP_duts_njudnlpr_50epoch.pth'))
+generator.load_state_dict(torch.load('./MMFT.pth'))
 
 
 generator.cuda()
