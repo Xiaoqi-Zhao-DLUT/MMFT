@@ -177,8 +177,8 @@ def squared_relative_difference(output, target):
 def main():
     print("\n evaluating ....")
     eva12(
-        salpath='/home/asus/Coding/CVPR2022-MMFT/Prediction/CoNet_depth/SIP_depth_reverse_scale' + '/',
-        gtpath='/home/asus/Datasets/binary_segmentation/RGBD_SOD_Datasets/SIP/depth_scale' + '/')
+        salpath='./SIP_depth_pre' + '/',
+        gtpath='./SIP_depth_gt' + '/')
 
 
 if __name__ == '__main__':
